@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Yahoo App Test Automation Suite">
+	<test name="Yahoo App Test">
+
+		<!-- Configuration property or Config -->
+		
+		<parameter name="env" value="QA" />
+		<parameter name="Brower" value="chrome" />
+		<parameter name="url" value="https://login.yahoo.com/" />
+		<parameter name="emailID" value="test@yahoo.com" />
+
+		<classes>
+
+			<class name="ParameterTest" />
+			<!-- environmet variable: general variable for all program,  -->
+
+		</classes>
+
+	</test>
+
+</suite>
+
